@@ -1,0 +1,49 @@
+body{
+    background-color: wheat;
+    
+}
+
+/* Basic Menu Styling */
+.nav {
+/* Light gray background */
+    padding: 10px;
+     /* Subtle bottom border */
+  }
+  
+  .nav ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Arrange menu items horizontally */
+    justify-content: space-around; /* Distribute items evenly */
+  }
+  
+  .nav li {
+    margin: 0 10px; /* Space between menu items */
+  }
+  
+  .nav a {
+    text-decoration: none; /* Remove underlines */
+    color: #333; /* Dark gray text color */
+    font-weight: bold; /* Make text bold */
+    padding: 8px 15px; /* Add padding for visual appeal */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .nav a:hover {
+    background-color: #ddd; /* Light gray background on hover */
+  }
+  
+
+
+.title-ppt{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    border: solid  5px   black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px;
+}
+
